@@ -7,6 +7,9 @@
     "rules": {
         "no-console": false,
         "typedef": [true, "call-signature", "arrow-call-signature", "parameter", "arrow-parameter", "property-declaration", "variable-declaration", "member-variable-declaration"],
-        "no-any": true
+        "no-any": true,
+        "one-line": false,
+        "no-namespace": false,
+        "curly": [true, "as-needed", "warn"]
     }
 }

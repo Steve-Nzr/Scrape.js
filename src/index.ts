@@ -1,6 +1,2 @@
-export = {
-    register: (name: string): boolean => {
-        console.log(name);
-        return true;
-    },
-};
+export * from "./controllers/SourceController";
+export * from "./controllers/RouteController";
