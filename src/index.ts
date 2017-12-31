@@ -1,5 +1,6 @@
 export = {
-    register: (name: string) => {
+    register: (name: string): boolean => {
         console.log(name);
-    }
+        return true;
+    },
 };

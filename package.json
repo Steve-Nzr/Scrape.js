@@ -5,6 +5,7 @@
   "main": "build/index.js",
   "scripts": {
     "build": "tsc",
+    "pretest": "tslint -p ./tslint.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,6 +28,7 @@
   },
   "homepage": "https://github.com/Steve-Nzr/scrape-me#readme",
   "devDependencies": {
+    "tslint": "^5.8.0",
     "typescript": "^2.6.2"
   }
 }
