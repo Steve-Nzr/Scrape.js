@@ -1,6 +1,6 @@
 {
   "name": "scrape-me",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Smart & Flexible JavaScript written Web scraper",
   "main": "build/index.js",
   "scripts": {
